@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width:100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(60deg,yellow, orange,lime,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 400px;
+    height: 300px;
+    border: 4px solid chocolate;
+    border-radius: 2%;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 80%;
+    height: 90%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.ball1{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya 1s infinite;
+}
+.ball2{
+    width: 30px;
+    height: 30px;
+    background-color: lime;
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya2 3s infinite;
+}
+.ball3{
+    width: 30px;
+    height: 30px;
+    background-color: violet;
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya3 2s infinite;
+}
+.ball4{
+    width: 30px;
+    height: 30px;
+    background-color:orange;
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya4 1s infinite;
+}
+.ball5{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya5 2s infinite;
+}
+.ball6{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya6 3s infinite;
+}
+.ball7{
+    width: 30px;
+    height: 30px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya7 1s infinite;
+}
+.ball8{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(244, 94, 189);
+    border-radius: 50%;
+    position: relative;
+    animation: animatsiya8 2s infinite;
+}
+
+@keyframes animatsiya {
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top:-10%;
+    }
+}
+@keyframes animatsiya2{
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top: -10%;
+    }
+}
+@keyframes animatsiya3 {
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top: -10%;
+    }
+}
+@keyframes animatsiya4 {
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top: -10%;
+    }
+}
+@keyframes animatsiya5 {
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top: -10%;
+    }
+}
+@keyframes animatsiya6 {
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top: -10%;
+    }
+}
+@keyframes animatsiya7 {
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top: -10%;
+    }
+}
+@keyframes animatsiya8 {
+    0%{
+        top: 0;
+    }
+    50%{
+        top:80%;
+        width: 35px;
+    }
+    100%{
+        top: -10%;
+    }
+}
